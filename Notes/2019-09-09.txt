@@ -1,0 +1,102 @@
+OSI:
+    - Operating System Interconeccion
+    - Interconexión de Sistemas Abiertos
+    - Aplicación (Nivel #7)
+    - Físico (Nivel #1)
+	
+Red:
+    - Min. 2 elementos
+	
+	
+	
+	
+	
+
+LAN:
+    - Local Area Network
+    - 100 metros max.
+    - Dispositivo final tiene que tener un IP y gateway
+		
+	
+WAN:
+    - Wide Area Network
+	
+MAN:
+    - Metropolitan Area Network
+	
+- Switch:
+        - Generar margenes de tiempo a los elementos que quieren conectarse.
+        - Crean un puente entre el dispositivo y el switch.
+        - Establece conexiones dedicadas por un periodo de tiempo.
+        - Sirve como extensión de red.
+    - Dispositivos finales:
+        - Se conectan a los switches
+        - Computadoras
+        - Teléfonos
+        - Impresoras
+    - Router inalámbrico:
+        - Medio para conectarse a la red.
+        - No es un dispositivo final.
+    - Dispositivos intermediarios:
+        - Switch
+        - Router
+    - Router:
+        - Canal para enviar datos de local o exterior
+        - Es un gateway
+        - Tiene todas las tablas de rutas.
+		
+		
+Tasa de Transmisión:
+    - Velocidad en cual los datos se transmiten en la red.
+    - Sistema binario:
+        - 0: falso, inactivo
+        - 1: verdadero, activo
+    - Bits por segundo e.g. 7 bits / 1 s
+    - 4 kb / s = 4000 bts (bits per second)
+	
+Interfaz de red:
+    - Lo que me permite comunicarme con el entorno.
+
+
+		
+	
+TPC/IP:
+    - Transmission Control Protocol / Internet Protocol
+	
+UDP:
+    - User Datagram Protocol
+	
+¿Qué es una red?
+Cliente <-> Servidor
+    - Comunicación: [Mensaje]
+        - Carga útil:
+            - Transmisión de archivos
+            - Transmisión de video
+            - Transmisión de voz
+			
+			
+e.g.
+Emisor ----+-------> Receptor     -+	
+           |                       +-> Protocolo
+           +-> Canal              -+
+		   
+
+	
+
+Medios:
+    - Guiados:
+        - Cobre, TP (Par Trenzado/Twisted Pair)
+        - Vidrio (Fibras de vidrio) [Fibra óptica]
+            - Monomodo (Delgada, distancias largas)
+                - WAN
+                - Se usan diodos para transmitir
+            - Multimodo (Transportar varios canales de comunicacióna)
+                - LAN 
+                - LED de alto brillo
+        - Conección de cable coaxial
+            - Televisión e Internet
+    - No guiados:
+        - Ondas de radio:
+            - Microondas (Tipo de onda de alta frecuencia)
+        - Infrarojos:
+            - Controles de televisión
